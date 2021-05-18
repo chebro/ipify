@@ -1,0 +1,22 @@
+{
+  "name": "ipaddr",
+  "version": "1.0.0",
+  "description": "report client ip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chebro/ipaddr.git"
+  },
+  "author": "chebro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chebro/ipaddr/issues"
+  },
+  "homepage": "https://github.com/chebro/ipaddr#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
