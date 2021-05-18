@@ -5,9 +5,8 @@ const port = process.env.PORT;
 const addr = process.env.ADDR;
 
 app.get('/', (req, res) => {
-  req.ipReal = req.ip;
-  if (req.headers['x-real-ip']) req.ipReal = req.headers(['x-real-ip']);
-  res.send(req.ipReal);
+  if (req.headers['x-real-ip']) res.end(req.headers['x-real-ip']);
+  res.end(req.ip);
 });
 
 app.listen(port, addr, () => {
