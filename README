@@ -1,0 +1,18 @@
+ipify
+=====
+
+A no bullshit express.js application that returns client ip address.
+
+
+Install and run
+---------------
+    git clone http://github.com/chebro/ipify
+    npm i
+    PORT=8080 ADDR=localhost node index.js
+
+
+Run behind a proxy
+------------------
+    If behind a reverse proxy, set a proxy header named `X-Real-IP` to the client IP.
+
+
