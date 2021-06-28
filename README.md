@@ -3,16 +3,11 @@
 No bullshit express.js app that returns the client ip address.
 
 
-## Install
+## Install and run
 
 ```sh
 git clone http://github.com/chebro/ipify
 npm ci
-```
-
-## Run locally
-
-```sh
 PORT=8080 HOST=localhost node index.js
 ```
 
