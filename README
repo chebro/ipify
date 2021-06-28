@@ -1,18 +1,25 @@
-ipify
+=====
+IPIFY
 =====
 
-No bullshit express.js application that returns client ip address.
+No bullshit express.js app that returns the client ip address.
 
 
-Install and run
----------------
-    git clone http://github.com/chebro/ipify
-    npm i
-    PORT=8080 ADDR=localhost node index.js
+INSTALL
+=======
+
+  git clone http://github.com/chebro/ipify
+  npm ci
 
 
-Run behind a proxy
-------------------
-    If behind a reverse proxy, set a proxy header named `X-Real-IP` to the client IP.
+RUN LOCALLY
+===========
 
+  PORT=8080 ADDR=localhost node index.js
+
+
+BEHIND A REVERSE PROXY
+======================
+
+	When behind a reverse proxy, set the `X-Forwarded-For` proxy header to the client IP.
 
