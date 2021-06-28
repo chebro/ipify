@@ -4,7 +4,7 @@
   "description": "report client ip",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "HOST=localhost PORT=8080 node index.js"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 ipify
 =====
 
-A no bullshit express.js application that returns client ip address.
+No bullshit express.js application that returns client ip address.
 
 
 Install and run
