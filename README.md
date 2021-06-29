@@ -10,18 +10,31 @@ git clone http://github.com/chebro/ipify
 npm ci
 ```
 
+
 ## Run locally
 
 ```sh
 PORT=8080 HOST=localhost node index.js
 ```
 
+## Test
+
+```
+# plain text
+curl https://ipify.chebro.studio
+
+# json
+curl https://ipify.chebro.studio?json=true
+```
+
+
 
 ## Behind a reverse proxy
 
-When behind a reverse proxy, set the `X-Forwarded-For` proxy header to the client IP in the proxy config, for nginx:
+When behind a reverse proxy, set the `X-Forwarded-For` proxy header to the client IP in the proxy config. For example:
 
 ```
+# nginx server directive
 server {
 	...
 	location / {
@@ -31,3 +44,4 @@ server {
 	}
 }
 ```
+
