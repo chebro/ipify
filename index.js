@@ -7,11 +7,10 @@ const addr = process.env.HOST;
 app.set('trust proxy', true);
 
 app.get('/', (req, res) => {
-	if(req.params.json === true)
+	if(req.query.json === 'true')
 		res
 			.status(200)
-			.set('Content-Type', 'application/json')
-			.end( { ip: req.ip });
+			.json({ ip: req.ip });
 	else
 		res
 			.status(200)

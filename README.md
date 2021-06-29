@@ -15,10 +15,10 @@ npm ci
 
 ```
 # plain text
-curl https://ipify.chebro.studio
+curl 'https://ipify.chebro.studio'
 
 # json
-curl https://ipify.chebro.studio?json=true
+curl 'https://ipify.chebro.studio?json=true'
 ```
 
 
