@@ -1,6 +1,6 @@
 {
-  "name": "ipaddr",
-  "version": "1.1.0",
+  "name": "ipify",
+  "version": "1.2.0",
   "description": "report client ip",
   "main": "index.js",
   "scripts": {
