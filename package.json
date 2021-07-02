@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chebro/ipaddr.git"
+    "url": "git+https://github.com/chebro/ipify.git"
   },
   "author": "chebro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chebro/ipaddr/issues"
+    "url": "https://github.com/chebro/ipify/issues"
   },
-  "homepage": "https://github.com/chebro/ipaddr#readme",
+  "homepage": "https://github.com/chebro/ipify#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
